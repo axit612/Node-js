@@ -1,2 +1,9 @@
 
 //java script 
+
+1> What is javaScript?
+=> a technology that we use to create website
+- javaScript is case-sensitive 
+
+ex:-
+document.body.innerHTML = "Hello BHai";
