@@ -33,3 +33,17 @@ Note 2: If you try to copy-paste code in the Console,you might get a warning , s
 
 1f. use document.body.innerHTML = ....; to display 'Good Morning' on the webpage.
 -> document.body.innerHTML = "Good Morning";
+
+1g. Display your name on the web page.
+-> document.body.innerHTML = "Axit Gaudani";
+
+Challenge Exercises
+
+1h. you orser a T - shirt for $10, socks for $8 ,and dinner plates for $20. use javascript to         calculate the total cost of your order.
+->10 + 8 + 20;
+
+1i. your bank account has $100,you soend $20 on lunch,$50 on dinner,and earn $200 from your job.Calculate how much money you have.
+->100 - 20 - 50 + 200
+
+1J.use document.body.innerHTML = ...; to make the webpage blank;
+->document.body.innerHTML = "";
