@@ -7,3 +7,12 @@
 
 ex:-
 document.body.innerHTML = "Hello BHai";
+
+
+Lesson 1 Exercises - JavaScript Basics
+
+Note:- Do these exercises in the Console (Right-click > Inspect > Console)
+
+Note 2: If you try to copy-paste code in the Console,you might get a warning , saying pasting is
+        disabled. To Fix this, type allow Pasting in the Console and press Enter.
+
