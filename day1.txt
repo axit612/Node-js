@@ -30,3 +30,6 @@ Note 2: If you try to copy-paste code in the Console,you might get a warning , s
 
 1e. Calculate 2 + 2 - 5 in the Console.
 ->2 + 2 - 5
+
+1f. use document.body.innerHTML = ....; to display 'Good Morning' on the webpage.
+-> document.body.innerHTML = "Good Morning";
