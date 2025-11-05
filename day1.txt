@@ -68,4 +68,13 @@ Order of Operations
 2 + 3 - 5
 => calculate from left to right
 
+We can use(...)
+to control which part gets done first
+
+Order of Operations
+
+1. (...)
+2. * /
+3. + -
+
 
