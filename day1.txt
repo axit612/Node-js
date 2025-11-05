@@ -1,4 +1,4 @@
-
+                                Lesson 1
 //java script 
 
 1> What is javaScript?
@@ -47,3 +47,25 @@ Challenge Exercises
 
 1J.use document.body.innerHTML = ...; to make the webpage blank;
 ->document.body.innerHTML = "";
+
+
+
+
+                                Lesson 2
+                            Numbers and Math
+
+Order of Operations
+
+* / are done First
++ - are done after
+(operator precedence)
+
+* / have the same priority
+2 * 3 / 5
+=> calculate from left to right
+
++ - have the same priority
+2 + 3 - 5
+=> calculate from left to right
+
+
