@@ -78,3 +78,29 @@ Order of Operations
 3. + -
 
 
+   Lesson 2
+                            Numbers and Math
+
+Order of Operations
+
+* / are done First
++ - are done after
+(operator precedence)
+
+* / have the same priority
+2 * 3 / 5
+=> calculate from left to right
+
++ - have the same priority
+2 + 3 - 5
+=> calculate from left to right
+
+We can use(...)
+to control which part gets done first
+
+Order of Operations
+
+1. (...)
+2. * /
+3. + -
+
