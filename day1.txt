@@ -77,6 +77,20 @@ Order of Operations
 2. * /
 3. + -
 
+in programing:
+
+2,3,4  = integers
+2.2, 2.5 = floating point numbers (floats)
+
+//compters have a problem working with floats.
+
+Computers => 0,1
+Humans => 0,1,2,...,8,9
+
+Calculations with floats are sometimes Inaccurate.
+
+1.Do the calculation in cents
+2.Convert back to dollars
 
 
                                  
