@@ -94,7 +94,9 @@ Calculations with floats are sometimes Inaccurate.
 
 => How to round a number in javascript.
 2.2 => 2
-Math.round(2.2)
-                                 
+Math.round(2.2) // 2
+Math.round(2.8) // 3
+
+
                                
 
