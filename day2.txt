@@ -21,7 +21,7 @@ Why Use Java?
 - close to C++ and C#, it makes it easy for programmers
 
 
-example code:=
+#example code:=
 
 public class Main{
   public static void main(String args[]){
@@ -29,3 +29,18 @@ public class Main{
     System.out.println("hello " + name);
   }
 }
+
+
+#for run this code write in tarminal :-
+
+- javac filename.java
+- java classname
+
+#show java version
+
+java --version
+
+#Java Quickstart
+- every application begins with a class name and that class must match the filename.
+
+
