@@ -20,3 +20,12 @@ Why Use Java?
 - object oriented language which gives a clear structure to programs 
 - close to C++ and C#, it makes it easy for programmers
 
+
+example code:=
+
+public class Main{
+  public static void main(String args[]){
+    String name = "John";
+    System.out.println("hello " + name);
+  }
+}
