@@ -1,1 +1,22 @@
+// java 
+
+# what is java?
+- popular and powerful programming language, created in 1995.
+- 3 billion devices run Java.
+
+# used for:
+- Mobile applications (specially Android apps)
+- Desktop applications
+- Web applications
+- Web servers and application servers
+- Games
+- Database connection 
+
+Why Use Java?
+- works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+- popular programming languages
+- easy to learn and simple to use
+- secure, fast and powerful
+- object oriented language which gives a clear structure to programs 
+- close to C++ and C#, it makes it easy for programmers
 
