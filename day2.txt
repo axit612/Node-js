@@ -31,6 +31,10 @@ class hello
 
 # ----=> java is write once run anywhere
 
+class hello{
+  
+}
+
 
 
 
