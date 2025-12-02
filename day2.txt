@@ -34,6 +34,7 @@ class index{
 }
 
 Method	Description
+next() Reads a single name from the user
 nextBoolean()	Reads a boolean value from the user
 nextByte()	Reads a byte value from the user
 nextDouble()	Reads a double value from the user
