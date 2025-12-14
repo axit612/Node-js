@@ -30,5 +30,19 @@ class index{
 //ml exam prectic with code and thiyeri
 
 
+df.replace("?",np.nan,inplace = True)
+
+df.isnull()
+
+df.info()
+df.head(10)
+
+df_drop_age = df.dropna(subset=['normalized-losses'])
+df['normalized-losses'] = df['normalized-losses'].fillna(df['normalizedlosses'].astype("int").mean()) 
+df.isnull().sum()
 
 
+from sklearn.preprocessing import LabelEncoder
+
+lb = LabelEncoder()
+df["lbl_make"] = lb.fit_transform(df['make'])
