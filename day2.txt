@@ -46,3 +46,31 @@ from sklearn.preprocessing import LabelEncoder
 
 lb = LabelEncoder()
 df["lbl_make"] = lb.fit_transform(df['make'])
+
+import java.util.Scanner;
+
+class index{
+   public static void main(String args[]){
+
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Enter number n1:");
+      int n1 = sc.nextInt();
+
+      System.out.print("Enter number n2:");
+      int n2 = sc.nextInt();
+      
+      // n1 += 12;
+      // int sum = n1 + n2;
+      // n1++;//post - incriment 
+      // ++n1;//pre - incriment
+      // n1--;//post - dicriment
+      // --n1;//pre - dicriment
+
+      n1 = ++n1;      //frist ++ 1;
+      n2 = n2++;      //strore realevalue fater ++ 1;
+      
+      System.out.println("n1 : "+ n1 +" n2 : "+ n2);
+
+   }
+}
