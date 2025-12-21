@@ -120,6 +120,8 @@ class index{
 
 import java.util.Scanner;
 
+import java.util.Scanner;
+
 class index{
    public static void main(String args[]){
 
@@ -130,8 +132,14 @@ class index{
 
       boolean result = (a<b && x>y);
       boolean result1 = (a>b && x<y);
+      boolean result2 = (a<b || x<y);
+      boolean result3 = (a>b || x<y);
+      boolean result4 = (a<b || x>y);
 
-      System.out.print("condition 1 a<b && x>y : "+ result + "\n condition 2 a<b && x>y : "+result1);
+      System.out.print("condition 1 a<b && x>y : "+ result + "\n condition 2 a<b && x>y : "+result1+ "\n condition 3 a<b || x<y : "+result2+ "\n condition 4 a>b || x<y : "+result3);
+      System.out.print("condition for not oprater ! : "+ !result4);// That is used for positive to nagetiv conversion like value is true than ans is give false
    }
 }
+
+
 
