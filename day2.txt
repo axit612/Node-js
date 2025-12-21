@@ -118,3 +118,20 @@ class index{
 // F      T
 
 
+import java.util.Scanner;
+
+class index{
+   public static void main(String args[]){
+
+      int x = 7;
+      int y = 5;
+      int a = 5;
+      int b = 9;
+
+      boolean result = (a<b && x>y);
+      boolean result1 = (a>b && x<y);
+
+      System.out.print("condition 1 a<b && x>y : "+ result + "\n condition 2 a<b && x>y : "+result1);
+   }
+}
+
