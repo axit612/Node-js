@@ -167,3 +167,40 @@ class index{
    }
 }
 
+// 2 number is max
+
+import java.util.Scanner;
+
+class index{
+   int x;
+   int y;
+
+   index(int x,int y){
+      this.x = x;
+      this.y = y;
+   }
+   void max(){
+      if(x>y){
+         System.out.println("x is max");
+      }else if(x==y){
+         System.out.println("x and y both are same");
+      }else{
+         System.out.println("y is max");
+      }
+   }
+   public static void main(String args[]){
+
+      Scanner sc= new Scanner(System.in);
+     
+      System.out.print("Enter the number n1 : ");
+      int x = sc.nextInt();
+      System.out.print("Enter the number n2 : ");
+      int y = sc.nextInt();
+
+      index i = new index(x,y);
+      i.max();
+   }
+}
+
+
+// 3 number max
