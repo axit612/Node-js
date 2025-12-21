@@ -74,3 +74,47 @@ class index{
 
    }
 }
+
+//compari son opreater
+
+import java.util.Scanner;
+
+class index{
+   public static void main(String args[]){
+
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Enter the number n1:");
+      float n1 = sc.nextFloat();
+
+      System.out.print("Enter the number n2:");
+      int n2 = sc.nextInt();
+
+      boolean result = (n1==n2);
+
+      System.out.print("sum of two number : "+ result);
+   }
+}
+
+//>,<,>=,<=,!=,==
+
+// And &&
+// A     B     A & B
+// T     T       T
+// T     F       F
+// F     T       F
+// F     F       F
+
+// or ||
+// A     B     A || B
+// T     T        T
+// T     F        T
+// F     T        T
+// F     F        F
+
+// not !=
+// A     !A
+// T      F
+// F      T
+
+
