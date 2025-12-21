@@ -143,5 +143,27 @@ class index{
 
 //condition statment
 
+import java.util.Scanner;
 
+class index{
+   public static void main(String args[]){
+
+      int x = 27;
+
+      // if(!true){
+      //    System.out.println("Hello");
+      // }
+      // else{
+      //    System.out.println("Bye");
+      // }
+
+      if(x>10 && x<=20){
+         System.out.println("value of x is uander the 10 to 20.");
+      }
+      else{
+         System.out.println("value of x is out of the rage.");
+      }
+
+   }
+}
 
