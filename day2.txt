@@ -243,4 +243,43 @@ class index{
    }
 }
 
+//number is odd or even
+
+import java.util.Scanner;
+
+class index{
+   int n1;
+
+   index(int n1){
+      this.n1 = n1;
+    
+   }
+
+   void odd(){
+      if(n1%2==0){
+         System.out.print("NUmber is even");
+      }
+      else
+      {
+         System.out.print("NUmber is Odd");
+      }
+   }
+
+   public static void main(String args[]){
+
+      Scanner sc = new Scanner(System.in);
+
+      //input data drom user
+      System.out.print("Enter the number n1 : ");
+      int n1 = sc.nextInt();
+      
+
+      //class object and call the method
+     index i = new index(n1);
+     i.odd();
+   }
+}
+
+
+
 
