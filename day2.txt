@@ -1,1 +1,361 @@
 
+
+//+ - * / %
+
+import java.util.Scanner;
+
+class index{
+   public static void main(String args[]){
+
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Enter number n1:");
+      int n1 = sc.nextInt();
+
+      System.out.print("Enter number n2:");
+      int n2 = sc.nextInt();
+      
+      int sum = n1 + n2;
+      int sub = n1 - n2;
+      float div = n1 / n2;
+      int mul = n1 * n2;
+      int mod = n1 % n2;
+ 
+
+      System.out.println("Sum : "+ sum + "\n"+"sub : "+ sub + "\n"+"div  : "+ div + "\n"+"mul : "+ mul + "\n"+"mod : "+ mod + "\n");
+
+   }
+}
+
+
+
+//ml exam prectic with code and thiyeri
+
+
+df.replace("?",np.nan,inplace = True)
+
+df.isnull()
+
+df.info()
+df.head(10)
+
+df_drop_age = df.dropna(subset=['normalized-losses'])
+df['normalized-losses'] = df['normalized-losses'].fillna(df['normalizedlosses'].astype("int").mean()) 
+df.isnull().sum()
+
+
+from sklearn.preprocessing import LabelEncoder
+
+lb = LabelEncoder()
+df["lbl_make"] = lb.fit_transform(df['make'])
+
+import java.util.Scanner;
+
+class index{
+   public static void main(String args[]){
+
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Enter number n1:");
+      int n1 = sc.nextInt();
+
+      System.out.print("Enter number n2:");
+      int n2 = sc.nextInt();
+      
+      // n1 += 12;
+      // int sum = n1 + n2;
+      // n1++;//post - incriment 
+      // ++n1;//pre - incriment
+      // n1--;//post - dicriment
+      // --n1;//pre - dicriment
+
+      n1 = ++n1;      //frist ++ 1;
+      n2 = n2++;      //strore realevalue fater ++ 1;
+      
+      System.out.println("n1 : "+ n1 +" n2 : "+ n2);
+
+   }
+}
+
+//compari son opreater
+
+import java.util.Scanner;
+
+class index{
+   public static void main(String args[]){
+
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Enter the number n1:");
+      float n1 = sc.nextFloat();
+
+      System.out.print("Enter the number n2:");
+      int n2 = sc.nextInt();
+
+      boolean result = (n1==n2);
+
+      System.out.print("sum of two number : "+ result);
+   }
+}
+
+//>,<,>=,<=,!=,==
+
+// And &&
+// A     B     A & B
+// T     T       T
+// T     F       F
+// F     T       F
+// F     F       F
+
+// or ||
+// A     B     A || B
+// T     T        T
+// T     F        T
+// F     T        T
+// F     F        F
+
+// not !=
+// A     !A
+// T      F
+// F      T
+
+
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+class index{
+   public static void main(String args[]){
+
+      int x = 7;
+      int y = 5;
+      int a = 5;
+      int b = 9;
+
+      boolean result = (a<b && x>y);
+      boolean result1 = (a>b && x<y);
+      boolean result2 = (a<b || x<y);
+      boolean result3 = (a>b || x<y);
+      boolean result4 = (a<b || x>y);
+
+      System.out.print("condition 1 a<b && x>y : "+ result + "\n condition 2 a<b && x>y : "+result1+ "\n condition 3 a<b || x<y : "+result2+ "\n condition 4 a>b || x<y : "+result3);
+      System.out.print("condition for not oprater ! : "+ !result4);// That is used for positive to nagetiv conversion like value is true than ans is give false
+   }
+}
+
+//condition statment
+
+import java.util.Scanner;
+
+class index{
+   public static void main(String args[]){
+
+      int x = 27;
+
+      // if(!true){
+      //    System.out.println("Hello");
+      // }
+      // else{
+      //    System.out.println("Bye");
+      // }
+
+      if(x>10 && x<=20){
+         System.out.println("value of x is uander the 10 to 20.");
+      }
+      else{
+         System.out.println("value of x is out of the rage.");
+      }
+
+   }
+}
+
+// 2 number is max
+
+import java.util.Scanner;
+
+class index{
+   int x;
+   int y;
+
+   index(int x,int y){
+      this.x = x;
+      this.y = y;
+   }
+   void max(){
+      if(x>y){
+         System.out.println("x is max");
+      }else if(x==y){
+         System.out.println("x and y both are same");
+      }else{
+         System.out.println("y is max");
+      }
+   }
+   public static void main(String args[]){
+
+      Scanner sc= new Scanner(System.in);
+     
+      System.out.print("Enter the number n1 : ");
+      int x = sc.nextInt();
+      System.out.print("Enter the number n2 : ");
+      int y = sc.nextInt();
+
+      index i = new index(x,y);
+      i.max();
+   }
+}
+
+
+// 3 number max
+
+import java.util.Scanner;
+
+class index{
+   int n1,n2,n3;
+   index(int n1,int n2,int n3){
+      this.n1 = n1;
+      this.n2 = n2;
+      this.n3 = n3;
+   }
+
+   void max(){
+      if(n1 > n2 && n1 > n3){
+         System.out.println(n1+" is max.");
+      }else if(n2 > n3){
+         System.out.println(n2+" is max.");
+      }else{
+         System.out.println(n3+" is max.");
+      }
+   }
+
+   public static void main(String args[]){
+
+      Scanner sc = new Scanner(System.in);
+
+      //input data drom user
+      System.out.print("Enter the number n1 : ");
+      int n1 = sc.nextInt();
+      System.out.print("Enter the number n2 : ");
+      int n2 = sc.nextInt();
+      System.out.print("Enter the number n3 : ");
+      int n3 = sc.nextInt();
+
+      //class object and call the method
+      index i = new index(n1,n2,n3);
+      i.max();
+   }
+}
+
+//number is odd or even
+
+
+import java.util.Scanner;
+
+class index{
+   int n1;
+
+   index(int n1){
+      this.n1 = n1;
+    
+   }
+
+   void odd(){
+      if(n1%2==0){
+         System.out.println("NUmber is even");
+      }
+      else
+      {
+         System.out.println("NUmber is Odd");
+      }
+
+      // 
+
+      String result = (n1%2==0)? "NUmber is even" : "NUmber is odd";
+      System.out.println("result : "+ result);
+
+   }
+
+   public static void main(String args[]){
+
+      Scanner sc = new Scanner(System.in);
+
+      //input data drom user
+      System.out.print("Enter the number n1 : ");
+      int n1 = sc.nextInt();
+      
+
+      //class object and call the method
+     index i = new index(n1);
+     i.odd();
+   }
+}
+
+//income text count
+import java.util.Scanner;
+
+class index{
+   public static void main(String args[]){
+      
+      Scanner sc = new Scanner(System.in);
+      
+      System.out.print("Enter your income :");
+      long inco = sc.nextLong();
+
+      if(inco < 500000){
+         System.out.println("income : "+inco);
+      }else if(inco >500000 && inco <1000000){
+         double total = inco - (inco * 0.1);
+         System.out.println("income : "+total);
+      }else{
+         double total = inco - (inco * 0.3);
+         System.out.println("income : " + total);
+      }
+     
+   }
+}
+
+// ternary operator 
+
+variable = condition ? Statment 1 : Statement 2;
+
+Boolean larger = (5>3)?5:3;
+
+String type = (5%2==0)?"even":"odd";
+
+
+// pass or file student
+
+//marks >= 33:pass
+//marks < 33 fail
+
+//marks >= 33:pass
+//marks < 33 fail
+
+import java.util.Scanner;
+
+class index{
+   
+	public static void main(String args[]){
+
+		Scanner sc = new Scanner(System.in);
+
+      System.out.print("Enter the Name : ");
+      String name = sc.next();
+      
+		System.out.print("Enter the marks : ");
+		int marks = sc.nextInt();
+		
+      if(marks >= 33){
+         System.out.println(name+" is pass");
+      }else{
+         System.out.println(name+" is File");
+      }
+	}
+}
+
+
+
+
+
+
+
+
