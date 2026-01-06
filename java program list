@@ -290,3 +290,38 @@ class Main {
 
     }
 }
+
+//program 14 get string value from user and Count Vowels and Consonants in a String.
+
+import java.util.Scanner;
+
+class Main {
+
+    public static void main(String argc[]) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the string : ");
+        String name = sc.next().toLowerCase();
+        int count=0,count1=0;
+
+
+       for(int i=0;i<name.length();i++){
+            char ch = name.charAt(i);
+
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+                count++;
+            }else {
+                count1++;
+            }
+       }
+        System.out.print("In string " + count +" vowels and "+count1+" consonants.");
+
+
+
+
+
+
+
+    }
+}
