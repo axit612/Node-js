@@ -354,6 +354,34 @@ class index{
 
 
 
+import java.util.*;
+
+//using array Enter and dispaly data
+public class Main{
+    public static void main(String args[]){
+
+        Scanner sc = new Scanner(System.in);
+
+        int[] a = new int[20];
+
+        System.out.println("how may number you are Enter:");
+        int n = sc.nextInt();
+
+        for(int i=0;i<n;i++){
+            System.out.print("Enter the number a[" + i + "] : ");
+            a[i] = sc.nextInt();
+        }
+
+        for(int i=0;i<n;i++){
+            System.out.print(" a[ "+i+" ] : "+a[i]);
+        }
+
+        
+        String boy = "axit";
+        System.out.println(boy.toUpperCase());
+    }
+}
+
 
 
 
