@@ -317,10 +317,42 @@ class Main {
        }
         System.out.print("In string " + count +" vowels and "+count1+" consonants.");
 
+    }
+}
 
+//program 15 Create a class Car with attributes brand and model, and a method to display car details.(
+//Defining a class, creating objects, working with methods).
 
+import java.util.Scanner;
 
+class car{
+    String brand;
+    String model;
+    car(String brand,String model){
+        this.brand = brand;
+        this.model = model;
+    }
 
+    void display(){
+        System.out.println( "Brand Name : "+brand);
+        System.out.println( "Brand Name : "+model);
+    }
+}
+
+class Main {
+
+    public static void main(String argc[]) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Brand Name :");
+        String brand = sc.nextLine();
+
+        System.out.print("Enter Model Name :");
+        String model = sc.nextLine();
+
+        car c = new car(brand,model);
+        c.display();
 
 
     }
