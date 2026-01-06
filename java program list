@@ -1,1 +1,108 @@
 
+//program list in 1 to 7
+
+import java.util.Scanner;
+
+class Main{
+    void p1(){
+        System.out.println("Name : Axit Gaudani");
+        System.out.println("Age : 23");
+        System.out.println("City : Surat");
+        System.out.println("corese : Mca");
+    }
+    void p2(){
+        System.out.println("=====================p2====================");
+        int a = 2;
+        if(a%2==0){
+            System.out.println("numbe is even");
+        }else {
+            System.out.println("number is odd");
+        }
+    }
+    void p3(){
+        //0,1,1,2,3,5,8
+        System.out.println("=====================p3====================");
+        int n=5;
+        int a=0;
+        int b=1;
+        System.out.println(a);
+        System.out.println(b);
+        for(int i=0;i<n;i++) {
+            int c = a + b;
+            System.out.println(c);
+            a = b;
+            b = c;
+        }
+    }
+    void p4(int n){
+        System.out.println("=====================p4====================");
+
+        int div,sum=0,mul;
+        int temp = n;
+        while (n!=0){
+            sum = sum * 10 + (n%10);
+            n = n/10;
+        }
+
+        if(temp == sum){
+            System.out.println(sum +" is palidrome");
+        }else {
+            System.out.println(sum +" is not palidrome");
+        }
+    }
+
+    void p5(){
+        System.out.println("=====================p4====================");
+        int n = 121;
+        int div,sum=0,mul;
+        int temp = n;
+        while (n!=0){
+            sum = sum * 10 + (n%10);
+            n = n/10;
+        }
+
+        if(temp == sum){
+            System.out.println(sum +" is palidrome");
+        }else {
+            System.out.println(sum +" is not palidrome");
+        }
+    }
+
+    void p6(int n){
+        //int n =156;
+        int sum=0,div,rem;
+        int count=0;
+
+        while (n!=0){
+            n = n/10;
+            count++;
+        }
+        int temp = n;
+        while (n!=0){
+            div = n%10;
+            int result = (int)Math.pow(n,count);
+            sum = sum+result;
+            n = n/10;
+        }
+
+        if(temp == sum){
+            System.out.println("number is Armstrong");
+        }else{
+            System.out.println("number is not Armstrong");
+        }
+
+    }
+    public static void main(String argc[]){
+        Scanner sc = new Scanner(System.in);
+
+        Main m = new Main();
+        m.p1();
+        m.p2();
+        m.p3();
+        System.out.println("Enter the number for chaking  palindrome : ");
+        int n = sc.nextInt();
+        m.p4(n);
+        m.p5();
+        m.p6(n);
+    }
+}
