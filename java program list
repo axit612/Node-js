@@ -106,3 +106,35 @@ class Main{
         m.p6(n);
     }
 }
+
+
+//program list in 8 
+import java.util.Scanner;
+
+class Main{
+    void min(int f1[]){
+        int min= f1[0];
+        for(int i=0;i<=5;i++){
+            if(min>f1[i]){
+                min = f1[i];
+            }
+        }
+        System.out.println("min number is : "+min);
+        int max= f1[0];
+        for(int i=0;i<=5;i++){
+            if(max<f1[i]){
+                max = f1[i];
+            }
+        }
+        System.out.println("min number is : "+max);
+    }
+
+    public static void main(String argc[]){
+        Scanner sc = new Scanner(System.in);
+
+        int[] f1 = new int[]{1,3,4,5,6,7};
+        Main m = new Main();
+        m.min(f1);
+
+    }
+}
