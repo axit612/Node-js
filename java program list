@@ -240,3 +240,23 @@ class Main{
         }
     }
 }
+
+//program 12 revers String
+import java.util.Scanner;
+
+class Main {
+
+    public static void main(String argc[]) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String name = new String();
+        System.out.print("Enter the String : ");
+        name = sc.nextLine();
+        for (int i = name.length() - 1; i >= 0; i--) {
+            System.out.print(name.charAt(i));
+        }
+
+
+    }
+}
