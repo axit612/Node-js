@@ -138,3 +138,29 @@ class Main{
 
     }
 }
+
+
+//program 9
+import java.util.Scanner;
+
+class Main{
+    void min(int n){
+        if(n >= 1){
+            System.out.print("number is Positive");
+        }else if(n==0){
+            System.out.print("number is Zero");
+        }else {
+            System.out.print("number is Negative");
+        }
+    }
+
+    public static void main(String argc[]){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the number : ");
+        int n = sc.nextInt();
+        Main m = new Main();
+        m.min(n);
+
+    }
+}
