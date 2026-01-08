@@ -218,8 +218,8 @@ syntex:-
 - you can find the length of a string with the length() method.
 
 syntex:-
-String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-System.out.println("The length of the txt string is: " + txt.length());
+  String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  System.out.println("The length of the txt string is: " + txt.length());
 
 # More String Methods
 - The toUpperCase() method converts a string to upper case letters.
@@ -227,20 +227,40 @@ System.out.println("The length of the txt string is: " + txt.length());
 
 syntex:-
 
-String txt = "Hello World";
-System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
-System.out.println(txt.toLowerCase());   // Outputs "hello world"
+  String txt = "Hello World";
+  System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
+  System.out.println(txt.toLowerCase());   // Outputs "hello world"
 
 # Finding a character in String
 - The indexOf() method returns the index (the position) of the first occurrence of a specified text in a string.
 
 syntex:-
+  
+  String txt = "Please locate where 'locate' occurs!";
+  System.out.println(txt.indexOf("locate")); // Outputs 7
 
-String txt = "Please locate where 'locate' occurs!";
-System.out.println(txt.indexOf("locate")); // Outputs 7
+- You can use the charAt() method to access a character at a specific position in a string.
 
+syntex:-
 
+  String txt = "Hello";
+  System.out.println(txt.charAt(0));  // H
+  System.out.println(txt.charAt(4));  // o
 
+# Comparing Strings
+
+To compare two strings, you can use the equals() method
+
+syntex:-
+
+  String txt1 = "Hello";
+  String txt2 = "Hello";
+  
+  String txt3 = "Greetings";
+  String txt4 = "Great things";
+  
+  System.out.println(txt1.equals(txt2));  // true
+  System.out.println(txt3.equals(txt4));  // false
 
 
  
