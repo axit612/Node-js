@@ -189,6 +189,23 @@ System.out.println("Regular user: " + (isLoggedIn && !isAdmin));
 System.out.println("Has access: " + (isLoggedIn || isAdmin));
 System.out.println("Not logged in: " + (!isLoggedIn));
 
+output:-
+
+Is regular user: true
+Has access: true
+Not logged in: false
+
+# Order of Operations
+
+() - Parentheses
+*, /, % - Multiplication, Division, Modulus
++, - - Addition, Subtraction
+>, <, >=, <= - Comparison
+==, != - Equality
+&& - Logical AND
+|| - Logical OR
+= - Assignment
+
 
 
 
