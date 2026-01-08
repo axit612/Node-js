@@ -275,5 +275,8 @@ output:-
   Before: [   Hello World   ]
   After: [Hello World]
 
+# String Concatenation
+- The + operator can be used between strings to combine them.
+
 
  
