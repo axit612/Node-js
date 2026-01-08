@@ -221,6 +221,10 @@ syntex:-
 String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 System.out.println("The length of the txt string is: " + txt.length());
 
+# More String Methods
+- The toUpperCase() method converts a string to upper case letters.
+- The toLowerCase() method converts a string to lower case letters.
+
 
 
 
