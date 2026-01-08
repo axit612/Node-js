@@ -231,6 +231,16 @@ String txt = "Hello World";
 System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
 System.out.println(txt.toLowerCase());   // Outputs "hello world"
 
+# Finding a character in String
+- The indexOf() method returns the index (the position) of the first occurrence of a specified text in a string.
+
+syntex:-
+
+String txt = "Please locate where 'locate' occurs!";
+System.out.println(txt.indexOf("locate")); // Outputs 7
+
+
+
 
 
  
