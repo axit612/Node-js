@@ -147,6 +147,40 @@ Narrowing Casting (manual) - converting a larger type to a smaller type size
 double -> float -> long -> int -> char -> short -> byte
 
 
+# Operators
+
+# Arithmetic Operators
+
+int x = 10;
+int y = 3;
+
+System.out.println(x + y); // 13
+System.out.println(x - y); // 7
+System.out.println(x * y); // 30
+System.out.println(x / y); // 3
+System.out.println(x % y); // 1
+
+int z = 5;
+++z;
+System.out.println(z); // 6
+--z;
+System.out.println(z); // 5
+
+# Assignment Operators
+=  	x = 5	  x = 5	
++=	x += 3	x = x + 3	
+-=	x -= 3	x = x - 3	
+*=	x *= 3	x = x * 3	
+/=	x /= 3	x = x / 3	
+%=	x %= 3	x = x % 3	
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3
+
+
+
 
 
 
