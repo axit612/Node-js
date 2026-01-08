@@ -206,8 +206,20 @@ Not logged in: false
 || - Logical OR
 = - Assignment
 
+==========================================================================
+# java String 
+- Strings are used for storing text.
+- A String variable contains a collection of characters surrounded by double quotes ("").
 
+syntex:-
+- String greeting = "Hello";
 
+# String Length
+- you can find the length of a string with the length() method.
+
+syntex:-
+String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println("The length of the txt string is: " + txt.length());
 
 
 
