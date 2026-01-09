@@ -286,7 +286,7 @@ syntex:-
 # Concatenation in Sentences
 - You can use string concatenation to build sentences with both text and variables.
 
-suntex:-
+syntex:-
   String name = "John";
   int age = 25;
   System.out.println("My name is " + name + " and I am " + age + " years old.");
@@ -295,12 +295,37 @@ suntex:-
 # The concat() Method
 - You can also use the concat() method to concatenate strings.
 
-suntex:-
+syntex:-
   String a = "Java ";
   String b = "is ";
   String c = "fun!";
   String result = a.concat(b).concat(c);
   System.out.println(result);
+
+# java Numbers and Strings
+
+- Adding Numbers and Strings
+
+syntex:-
+  int x = 10;
+  int y = 20;
+  int z = x + y;  // z will be 30 (an integer/number)
+
+- If you add two strings, the result will be a string concatenation.
+
+  String x = "10";
+  String y = "20";
+  String z = x + y;  // z will be 1020 (a String)
+
+- If you add a number and a string, the result will be a string concatenation
+
+  String x = "10";
+  int y = 20;
+  String z = x + y;  // z will be 1020 (a String)
+
+
+
+
 
 
 
