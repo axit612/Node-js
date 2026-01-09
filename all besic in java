@@ -340,3 +340,11 @@ syntex:-
   \b	Backspace	
   \r	Carriage Return	
   \f	Form Feed
+
+# Java Math
+
+- Math.max(x,y)
+- The Math.max(x,y) method can be used to find the highest value of x and y.
+- Example:-
+    Math.max(5, 10);
+
