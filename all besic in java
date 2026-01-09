@@ -424,6 +424,66 @@ syntex:-
       System.out.println("x is greater than y");
     }
 
+- The else Statement
+
+- The else statement lets you run a block of code when the condition in the if statement is false.
+- Syntax:-
+  if (condition) {
+    // block of code to be executed if the condition is true
+  } else {
+    // block of code to be executed if the condition is false
+  }
+
+- The else if Statement
+- Use the else if statement to specify a new condition if the first condition is false
+- Syntax:-
+    if (condition1) {
+      // block of code to be executed if condition1 is true
+    } else if (condition2) {
+      // block of code to be executed if the condition1 is false and condition2 is true
+    } else {
+      // block of code to be executed if the condition1 is false and condition2 is false
+    }
+
+# Java Short Hand If...Else (Ternary Operator)
+
+- Short Hand if...else
+- There is also a short-hand if else, which is known as the ternary operator because it consists of three operands.
+- Syntax:-
+   variable = (condition) ? expressionTrue :  expressionFalse;
+
+- Nested Ternary (Optional)
+
+- Example:-
+    int time = 22;
+    String message = (time < 12) ? "Good morning."
+                   : (time < 18) ? "Good afternoon."
+                   : "Good evening.";
+    System.out.println(message);
+
+# Nested If
+
+- You can also place an if statement inside another if. This is called a nested if statement.
+
+Syntax:-
+    if (condition1) {
+      // code to run if condition1 is true
+      if (condition2) {
+        // code to run if both condition1 and condition2 are true
+      }
+    }
+
+
+# Logical Operators in Conditions
+
+You can combine or reverse conditions using logical operators. These work together with if, else, and else if to build more complex decisions.
+
+    && (AND) - all conditions must be true
+    || (OR) - at least one condition must be true
+    ! (NOT) - reverses a condition (true = false, false = true)
 
 
 
+
+
+ 
