@@ -348,3 +348,27 @@ syntex:-
 - Example:-
     Math.max(5, 10);
 
+- Math.min(x,y)
+- The Math.min(x,y) method can be used to find the lowest value of x and y.
+- Example:-
+    Math.min(5, 10);
+
+- Math.sqrt(x)
+- The Math.sqrt(x) method returns the square root of x.
+- Example:-
+    Math.sqrt(64); // 8
+
+- Math.abs(x)
+- The Math.abs(x) method returns the absolute (positive) value of x.
+- Example:-
+    Math.abs(-4.7); // 4.7
+
+- Math.pow(x, y)
+- The Math.pow(x, y) method returns the value of x raised to the power of y.4
+- Example:-
+    Math.pow(2, 8);  // 256.0
+
+- Rounding Methods
+- Math.round(x) - rounds to the nearest integer
+- Math.ceil(x) - rounds up (returns the smallest integer greater than or equal to x)
+- Math.floor(x) - rounds down (returns the largest integer less than or equal to x)
