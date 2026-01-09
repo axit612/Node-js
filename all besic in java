@@ -482,7 +482,114 @@ You can combine or reverse conditions using logical operators. These work togeth
     || (OR) - at least one condition must be true
     ! (NOT) - reverses a condition (true = false, false = true)
 
+---------------------------------------------------------------------------------------
 
+# Java Switch Statements
+
+- Instead of writing many if..else statements, you can use the switch statement.
+
+- ex:-
+   Think of it like ordering food in a restaurant: If you choose number 1, you get Pizza. If you choose 2, you get a Burger. If you choose 3, you get Pasta. Otherwise, you get nothing.
+
+- Syntax:-
+
+  switch(expression) {
+    case x:
+      // code block
+      break;
+    case y:
+      // code block
+      break;
+    default:
+      // code block
+  }
+
+----------------------------------------------------------------------------------------
+
+# Loops
+- Loops can execute a block of code as long as a specified condition is true.
+
+# Java While Loop
+- The while loop repeats a block of code as long as the specified condition is true.
+
+- Syntax:-
+  while (condition) {
+    // code block to be executed
+  }
+
+# The Do/While Loop
+
+- The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true. Then it will repeat the loop as long as the condition is true.
+- Syntax:-
+    do {
+      // code block to be executed
+    }
+    while (condition);  
+
+# Java For Loop
+
+- When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop.
+- Syntax:-
+    for (statement 1; statement 2; statement 3) {
+      // code block to be executed
+    }
+
+# Nested Loops
+
+- It is also possible to place a loop inside another loop. This is called a nested loop.
+
+Example:-
+  // Outer loop
+  for (int i = 1; i <= 2; i++) {
+    System.out.println("Outer: " + i); // Executes 2 times
+    
+    // Inner loop
+    for (int j = 1; j <= 3; j++) {
+      System.out.println(" Inner: " + j); // Executes 6 times (2 * 3)
+    }
+  } 
+
+# The for-each Loop
+
+- There is also a "for-each" loop, which is used exclusively to loop through elements in an array.
+- Syntax:-
+    for (type variableName : arrayName) {
+      // code block to be executed
+    }
+
+- The for-each loop is simpler and more readable than a regular for loop, since you don't need a counter (like i < array.length).
+- Example:-
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    
+    for (String car : cars) {
+      System.out.println(car);
+    }
+
+--------------------------------------------------------------------------------------
+
+# Java Break and Continue
+
+# Break
+- You have already seen the break statement used in an earlier chapter of this tutorial. It was used to "jump out" of a switch statement.
+- The break statement can also be used to jump out of a loop.
+
+- Example:-
+    for (int i = 0; i < 10; i++) {
+      if (i == 4) {
+        break;
+      }
+      System.out.println(i);
+    }
+
+# Continue
+- The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+- Example:-
+   for (int i = 0; i < 10; i++) {
+  if (i == 4) {
+    continue;
+  }
+  System.out.println(i);
+}
 
 
 
