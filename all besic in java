@@ -667,5 +667,38 @@ Example:-
       System.out.println("Seat number " + i + " is taken by " + seats[i]);
     }
 
+----------------------------------------------------------------------------------------
 
- 
+# Multidimensional Arrays
+- A multidimensional array is an array that contains other arrays.
+- You can use it to store data in a table with rows and columns.
+- int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
+  myNumbers has two arrays (two rows):
+
+  First row: {1, 4, 2}
+  Second row: {3, 6, 8}
+
+# Access Elements
+- To access an element of a two-dimensional array, you need two indexes: the first for the row, and the second for the column.
+- Remember: Array indexes start at 0. That means row 0 is the first row, and column 0 is the first column.
+- Example:-
+    int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
+    System.out.println(myNumbers[1][2]); // Outputs 8
+
+# Change Element Values
+- Example:-
+    int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
+    myNumbers[1][2] = 9;
+    System.out.println(myNumbers[1][2]); // Outputs 9 instead of 8
+
+# Rows and Columns (Lengths)
+- You can use length to get the number of rows, and myNumbers[row].length for the number of columns in a given row.
+- Example: Sizes :-
+    int[][] myNumbers = { {1, 4, 2}, {3, 6, 8, 5, 2} };
+    
+    System.out.println("Rows: " + myNumbers.length);             // 2
+    System.out.println("Cols in row 0: " + myNumbers[0].length); // 3
+    System.out.println("Cols in row 1: " + myNumbers[1].length); // 5
+
+
+
