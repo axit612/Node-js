@@ -608,6 +608,30 @@ Example:-
     String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
     System.out.println(cars[0]);
 
+# Change an Array Element
+- To change the value of a specific element, refer to the index number
+- Example:-
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    cars[0] = "Opel";
+    System.out.println(cars[0]);
+
+# Array Length
+- To find out how many elements an array has, use the length property.
+- Example:-
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    System.out.println(cars.length);
+
+# The new Keyword
+- You can also create an array by specifying its size with new. This makes an empty array with space for a fixed number of elements, which you can fill later.
+- Example:-
+    String[] cars = new String[4]; // size is 4
+    
+    cars[0] = "Volvo";
+    cars[1] = "BMW";
+    cars[2] = "Ford";
+    cars[3] = "Mazda";
+    
+    System.out.println(cars[0]); // Outputs Volvo
 
 
  
