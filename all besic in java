@@ -285,6 +285,13 @@ syntex:-
 
 # Concatenation in Sentences
 
+You can use string concatenation to build sentences with both text and variables.
+
+suntex:-
+  String name = "John";
+  int age = 25;
+  System.out.println("My name is " + name + " and I am " + age + " years old.");
+
 
 
  
