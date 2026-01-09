@@ -323,10 +323,14 @@ syntex:-
   int y = 20;
   String z = x + y;  // z will be 1020 (a String)
 
+# Strings - Special Characters
 
-
-
-
+  The backslash (\) escape character turns special characters into string characters.
+  
+  Escape character	 Result	  Description
+        \'	            '	    Single quote
+        \"	            "	    Double quote
+        \\	            \	      Backslash
 
 
  
