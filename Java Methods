@@ -140,3 +140,73 @@ public class Main {
       }
     }
 
+# Block Scope
+
+- Example:-
+
+    public class Main {
+      public static void main(String[] args) {
+    
+        // Code here CANNOT use x
+    
+        { // This is a block
+    
+          // Code here CANNOT use x
+    
+          int x = 100;
+    
+          // Code here CAN use x
+          System.out.println(x);
+    
+        } // The block ends here
+    
+        // Code here CANNOT use x
+    
+      }
+    }
+
+# Loop Scope
+
+- Example:-
+    public class Main {
+      public static void main(String[] args) {
+    
+        for (int i = 0; i < 5; i++) {
+          System.out.println(i); // i is accessible here
+        }
+    
+        // i is NOT accessible here
+      }
+    }
+
+------------------------------------------------------------------------------------------
+
+# Java Recursion
+
+- Example:-
+
+    import java.util.Scanner;
+    
+    class Main {
+    
+        static int fect(int n){
+            if(0<n){
+                System.out.print( " "+n+" " );
+                return n * fect(n - 1);
+            }else{
+                return 1;
+            }
+        }
+        public static void main(String argc[]) {
+            Scanner sc =  new Scanner(System.in);
+    
+            System.out.print("Enter The Number:");
+            int n = sc.nextInt();
+    
+            System.out.print("factorial is : " + fect(n));
+    
+        }
+    }
+
+
+
