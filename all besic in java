@@ -20,6 +20,14 @@ Why Use Java?
 - object oriented language which gives a clear structure to programs 
 - close to C++ and C#, it makes it easy for programmers
 
+How java Works
+
+-java program done not run directly.
+
+Step process:
+You write code in .java file
+Java compiler converts it into bytecode
+JVM (Java Virtual Machine) runs the bytecode
 
 # example code:=
 
