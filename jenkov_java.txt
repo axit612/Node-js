@@ -14,3 +14,16 @@ Java Code (.java) → Compiler → Bytecode (.class) → JVM → Program Runs
 
 Advantage:
 The same bytecode can run on any operating system that has a JVM.
+
+
+3. Java Virtual Machine (JVM)
+- The JVM is a program that runs Java bytecode.
+Functions of JVM:
+ - Executes Java programs
+ - Converts bytecode into machine instructions
+ - Makes Java platform independent
+This is why Java follows the idea:
+"Write Once, Run Anywhere"
+
+Example:
+A Java program written on Windows can run on Linux or Mac if JVM is installed.
