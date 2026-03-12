@@ -5,3 +5,12 @@
 
 Example Flow:
 Java Code (.java) → Compiler → Bytecode (.class) → JVM → Program Runs
+
+
+2. Java Bytecode
+  - After compilation, Java code becomes bytecode.
+  - Bytecode is stored in .class files.
+  - Bytecode is not machine code; it runs on the JVM.
+
+Advantage:
+The same bytecode can run on any operating system that has a JVM.
