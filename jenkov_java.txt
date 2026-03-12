@@ -1,1 +1,7 @@
-Java is a Programing language used to create software applications.
+- Java is a programming language used to create software applications.
+  - Java programs are written in .java files.
+  - These files are compiled into bytecode.
+  - The bytecode is then executed by the Java Virtual Machine (JVM).
+
+Example Flow:
+Java Code (.java) → Compiler → Bytecode (.class) → JVM → Program Runs
