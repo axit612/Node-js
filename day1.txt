@@ -108,4 +108,4 @@ Math.round(2.8) // 3
 => linear data stracher.
 - store maltipale vlaue index wise
 - index start with 0
-
+LinkedIn networking
