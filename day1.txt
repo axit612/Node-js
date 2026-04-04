@@ -104,7 +104,8 @@ Math.round(2.8) // 3
 
 =============================================================================================
 
-what is a Array?
-
-
+ what is a Array?
+=> linear data stracher.
+- store maltipale vlaue index wise
+- index start with 0
 
