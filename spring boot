@@ -8,4 +8,5 @@ or
 2>spring:-
 The core spring framework already reduces boilerplate code and provides a lot of helpful features for java applications.
 
-wh
+-spring boot provide auto-configration
+-standalone applications
