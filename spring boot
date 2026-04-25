@@ -10,3 +10,28 @@ The core spring framework already reduces boilerplate code and provides a lot of
 
 -spring boot provide auto-configration
 -standalone applications
+
+advantage 
+-without server configration depload spring boot application
+
+//without spring boot, setting up a basic RESTful API reqyires menual configuration.
+
+//controller 
+
+@RestController
+@RequestMapping("/api")
+public class Mycontroller{
+  @getMapping ("/hello")
+  public String sayhello(){
+    return "hello form Spring!";
+  }
+}
+
+//Application Main
+public class SpringApp{
+  public static void main(String[] args){
+    ApplicationContext context = new AnnotationConfigApplicationContext(MyController.class);
+  }
+}
+
+//we need to manually set up the Spring application
