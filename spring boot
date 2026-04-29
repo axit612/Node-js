@@ -18,6 +18,8 @@ advantage
 
 //controller 
 
+//that was a spring boot code
+
 @RestController
 @RequestMapping("/api")
 public class Mycontroller{
