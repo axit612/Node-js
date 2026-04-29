@@ -56,4 +56,36 @@ standalone Applications
 
 
 
+//we use the @springBootApplication annotation on the main class. This single annotation replaces the need for setting 
+up a manual spring application context.
+
+=> we use springApplication.run() to start the application , and spring boot takes care of configuring 
+the embedded web server and other necessary components.
+
+=>The @springBootApplication annotation alone brings in a lot of pre-configration features, including automatic component scanning and embedded server configuration, wiche would have required more staps ina a traditional spring setup.
+
+
+//spring boot code
+
+import org.springframework.boot.springApplication;
+import org.springframework.boot.autoconfigure.springBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+//controller
+@RestController
+@RequestMapping("/api")
+
+public class MyController{
+  @GetMapping("/hello")
+  public String sayHello(){
+    return "hello form spring!";
+  }
+}
+
+public class springApp{
+  public static void main(String[] args){
+      ApplicationContext Context = new AnnotationConfigApplicationContext(MyController.class);
+  }
+}
 
